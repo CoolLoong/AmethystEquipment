@@ -1,0 +1,15 @@
+##Addon by Redstoneweewee (YT: WeeweeJuice) Enjoy!
+
+
+item.yes:amethyst_boots=紫水晶靴子
+item.yes:amethyst_chestplate=紫水晶胸甲
+item.yes:amethyst_helmet=紫水晶头盔
+item.yes:amethyst_leggings=紫水晶护腿
+
+item.yes:amethyst_sword=紫水晶剑
+item.yes:amethyst_pickaxe=紫水晶镐
+item.yes:amethyst_shovel=紫水晶锹
+item.yes:amethyst_axe=紫水晶斧
+item.yes:amethyst_hoe=紫水晶锄
+
+itemGroup.name.wearables=可穿戴设备

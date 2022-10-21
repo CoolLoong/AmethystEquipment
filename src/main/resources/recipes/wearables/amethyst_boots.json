@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "yes:amethyst_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "Z Z",
+      "Z Z"
+    ],
+    "key": {
+      "Z": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "yes:amethyst_boots"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "yes:amethyst_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "Y",
+      "X",
+      "X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:stick"
+      },
+      "Y": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "yes:amethyst_shovel"
+    }
+  }
+}

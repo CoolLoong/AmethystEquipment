@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "yes:amethyst_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "YY",
+      "YX",
+      " X"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "X": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "yes:amethyst_axe"
+    }
+  }
+}
