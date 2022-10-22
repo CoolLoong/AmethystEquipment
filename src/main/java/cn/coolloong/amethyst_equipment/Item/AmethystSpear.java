@@ -101,7 +101,9 @@ public class AmethystSpear extends ItemCustomTool {
             pk.setNextState("default");
             pk.setBlendOutTime(0f);
             pk.setEntityRuntimeIds(List.of(player.getId()));
-            player.dataPacket(pk);
+            for (var pl : AmethystEquipment.instance.getServer().getOnlinePlayers().values()) {
+                pl.dataPacket(pk);
+            }
             AmethystEquipment.instance.getServer().getScheduler().scheduleDelayedTask(AmethystEquipment.instance, () -> {
                 var pk2 = new AnimateEntityPacket();
                 pk2.setAnimation("animation.player.move.arms.stationary");
@@ -111,7 +113,9 @@ public class AmethystSpear extends ItemCustomTool {
                 pk2.setNextState("default");
                 pk2.setBlendOutTime(0f);
                 pk2.setEntityRuntimeIds(List.of(player.getId()));
-                player.dataPacket(pk2);
+                for (var pl : AmethystEquipment.instance.getServer().getOnlinePlayers().values()) {
+                    pl.dataPacket(pk2);
+                }
             }, 36);
 
             AmethystEquipment.instance.getServer().getScheduler().scheduleDelayedTask(AmethystEquipment.instance, () -> {
