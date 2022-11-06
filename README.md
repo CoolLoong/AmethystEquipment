@@ -16,8 +16,3 @@ Make sure to turn on `enable-experiment-mode=on` in `server.properties`.
    and `resource_packs` folders.
 3. Turn on `enable-experiment-mode=on` in `server.properties`.
 4. Start the server.
-
-### Note:
-
-The plugin currently only runs in the https://github.com/PowerNukkitX/PowerNukkitX/actions/runs/3294618803 build,
-pending a subsequent merge.
