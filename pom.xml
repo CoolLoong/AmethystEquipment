@@ -17,9 +17,7 @@
         <dependency>
             <groupId>cn.powernukkitx</groupId>
             <artifactId>powernukkitx</artifactId>
-            <version>1.19.30-r2</version>
-            <scope>system</scope>
-            <systemPath>D:/idea/project/PowerNukkitX/target/powernukkitx-1.19.31-r1-shaded.jar</systemPath>
+            <version>1.19.40-r2</version>
         </dependency>
     </dependencies>
 </project>
