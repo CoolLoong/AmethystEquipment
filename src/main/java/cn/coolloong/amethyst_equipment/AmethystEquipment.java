@@ -24,15 +24,9 @@ public class AmethystEquipment extends PluginBase implements Listener {
     public void onLoad() {
         instance = this;
         log = this.getLogger();
-        try {
-            Item.registerCustomItem(List.of(
-                    AmethystAxe.class, AmethystHoe.class, AmethystSword.class, AmethystShovel.class, AmethystPickaxe.class,
-                    AmethystBoots.class, AmethystChestplate.class, AmethystHelmet.class, AmethystLeggings.class, AmethystSpear.class));
-        } catch (NoSuchMethodException | InstantiationException | IllegalAccessException |
-                 InvocationTargetException e) {
-            log.info("AmethystEquipment start error!");
-            e.printStackTrace();
-        }
+        Item.registerCustomItem(List.of(
+                AmethystAxe.class, AmethystHoe.class, AmethystSword.class, AmethystShovel.class, AmethystPickaxe.class,
+                AmethystBoots.class, AmethystChestplate.class, AmethystHelmet.class, AmethystLeggings.class, AmethystSpear.class));
     }
 
     @Override
