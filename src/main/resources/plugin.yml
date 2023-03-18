@@ -1,6 +1,6 @@
 name: AmethystEquipment
 main: cn.coolloong.amethyst_equipment.AmethystEquipment
-version: "2.3.0"
+version: "1.3"
 api: [ "1.0.14" ]
 load: POSTWORLD
 author: CoolLoong
